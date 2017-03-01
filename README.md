@@ -3,11 +3,13 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: By identifying a pair of numbers that were peers, I was able to constrain the solution space to not
+include those numbers within the given row or column in which the naked twins appeared.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Same thing. We extended the contraint on where the values could be. This time along the diagonal for the peers.
+Then used that to restrcit what was possible within the peers.
 
 ### Install
 
