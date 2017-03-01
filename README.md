@@ -8,7 +8,7 @@ include those numbers within the given row or column in which the naked twins ap
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: Same thing. We extended the ccontraint on where the values could be. This time along the diagonal for the peers.
+A: Same thing. We extended the contraint on where the values could be. This time along the diagonal for the peers.
 Then used that to restrcit what was possible within the peers.
 
 ### Install
